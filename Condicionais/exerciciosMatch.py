@@ -14,7 +14,7 @@
 
 # Exercício 1
 
-menu_opcao = int(input("Escolha entre 1-Pizza, 2-Sushi e 3-Salada: "))
+menu_opcao = int(input("Escolha entre /n1-Pizza, 2-Sushi e 3-Salada: "))
 match menu_opcao:
     case 1:
         print("Você escolheu pizza!")
@@ -32,7 +32,7 @@ match meio_de_transporte:
     case "carro":
         print("Veículo terrestre")
     case "bicicleta": 
-        print("Voce escolheu bicicleta")
+        print("Veiculo sustentavel")
     case "avião" | "helicoptero":
         print("veiculo aereo")
     case _:
