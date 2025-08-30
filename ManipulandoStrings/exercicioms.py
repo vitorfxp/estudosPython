@@ -39,5 +39,5 @@ else:
 
 #* ex04
 frase = "    @prendendo @ progr@m@r   "
-frase = frase.replace('@','a')
-print(frase.strip())
+frase = frase.replace('@','a').strip().capitalize
+print(frase)
